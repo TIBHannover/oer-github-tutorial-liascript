@@ -492,7 +492,7 @@ These formats are linked to and can be downloaded from the landing page that is 
 > 
 > ❌ Needs a GitHub account
 > 
-> ❌ Customizing can be tricky / Limited page layout customization ? textfluss gestaltung
+> ❌ Customizing can be tricky
 
 
 <h3>[Markdown slides template](https://github.com/TIBHannover/markdown-slides-template)</h3>
@@ -530,7 +530,7 @@ So all you really need is a Markdown file.
 > 
 > ✅ Runs everywhere 
 > 
-> ✅ Large number of elements you can use like: ... graphen, tabellen, karten, ...
+> ✅ Large number of elements you can use like graphs, quizzes, ...
 > 
 > ✅ No installation, everything happens live & online
 > 
@@ -540,7 +540,7 @@ So all you really need is a Markdown file.
 > 
 > ✅ Interactive elements and extended Markdown can be used
 > 
-> ✅ responsive website, good mobile view
+> ✅ Responsive website
 > 
 > ❌ Only online, no download
 > 
