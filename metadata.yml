@@ -9,7 +9,7 @@ description: >-
 license:
   id: https://creativecommons.org/licenses/by/4.0/deed.de
 id: >-
-  https://liascript.github.io/course/?https://raw.githubusercontent.com/TIBHannover/oer-github-tutorial/main/tutorial.md#1
+  https://liascript.github.io/course/?https://raw.githubusercontent.com/TIBHannover/oer-github-tutorial-liascript/main/tutorial.md#1
 creator:
   - givenName: Sophie
     familyName: Matter
@@ -29,7 +29,7 @@ keywords:
 inLanguage:
   - en
 image: >-
-  https://raw.githubusercontent.com/TIBHannover/oer-github-tutorial/main/img/preview.png
+  https://raw.githubusercontent.com/TIBHannover/oer-github-tutorial-liascript/main/img/preview.png
 learningResourceType:
   - https://w3id.org/kim/hcrt/course
 educationalLevel:
