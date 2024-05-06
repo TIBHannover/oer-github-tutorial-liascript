@@ -1,10 +1,37 @@
 <!--
+author:   Sophie Matter
+
+version:  0.1.0
+language: en
+narrator: US English Female
+
+date:     2024-04-18
+
+logo:     https://raw.githubusercontent.com/TIBHannover/oer-github-tutorial-liascript/main/img/preview.png
+
+tags:     OER, Git, GitHub, Tutorial, LiaScript
+
+comment:  This tutorial shows how to easily publish OER on GitHub using LiaScript.
+          By following just a few simple steps, you can create your own OER, publish it
+          for free on GitHub and include it in our OER search index OERSI in under
+          five minutes!
+
+@attribute
+
+Technische Informationsbibliothek (TIB) - Leibniz-Informationszentrum
+Technik und Naturwissenschaften - Universitätsbibliothek
+<hr>
+License: <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0 DEED</a>
+
+@end
+
 @style
 section {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 @end
+
 -->
 
 # Create and publish OER on GitHub using LiaScript
