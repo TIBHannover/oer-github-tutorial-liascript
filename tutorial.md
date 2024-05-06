@@ -167,7 +167,7 @@ Once you are done, click on the "Generate" button in the bottom of the page. The
 
 In your repository, click on the `metadata.yml` file and then on the pen symbol ("Edit this file") to edit the file. Delete the file's contents and paste the metadata from your clipboard. Now click on the green "Commit changes..." button and confirm with "Commit changes".
 
-Now at the bottom of the page, you can click on `Generate`. This generates the metadata in the correct format. You can then copy the output to your clipboard either by using the `Copy` button, or by selecting the whole text (`Ctrl + A`) and copying it (`Ctrl + C`).
+Now at the bottom of the page, you can click on `Generate`. This generates the metadata in the correct format. You can then copy the output to your clipboard either by using the `Copy` button, or by selecting the whole text (<kbd>Ctrl</kbd> + <kbd>A</kbd>) and copying it (<kbd>Ctrl</kbd> + <kbd>C</kbd>).
 
 !?[Add metadata](videos/metadata-placeholder.mp4)
 
@@ -308,7 +308,7 @@ Then confirm by clicking the green `Commit changes` button.
 #### Why can I not see the updated content?
 
 If you have committed all your changes and still can not see them on your generated landing page and documents, try deleting the cache and reload the page (or open your page in a new private tab).
-A shortcut to reload and refresh at the same time is `Ctrl + F5`.
+A shortcut to reload and refresh at the same time is <kbd>Ctrl</kbd> + <kbd>F5</kbd>.
 
 Please note that changes can take a few minutes to be built into the generated documents.
 
@@ -362,7 +362,7 @@ Perhaps the easiest way to generate your own metadata for your repository in the
 
 Now at the bottom of the page, you can click on `Generate`.
 This generates the metadata in the correct format.
-You can then copy the output to your clipboard either by using the `Copy` button, or by selecting the whole text (`Ctrl + A`) and copying it (`Ctrl + C`).
+You can then copy the output to your clipboard either by using the `Copy` button, or by selecting the whole text (<kbd>Ctrl</kbd> + <kbd>A</kbd>) and copying it (<kbd>Ctrl</kbd> + <kbd>C</kbd>).
 
 ![Copy output to clipboard](img/metadata-copy-to-clipboard.png)
 
@@ -768,7 +768,7 @@ Following these steps might help you.
 1. Delete your cache and reload your page/document
 
    Often, the old version of the page is still loaded in your browser's cache.
-   If you reload the page or document by hitting `Ctrl + F5` together, you can reload your page while deleting the cache of that page.
+   If you reload the page or document by hitting <kbd>Ctrl</kbd> + <kbd>F5</kbd> together, you can reload your page while deleting the cache of that page.
    You can also open your page or document in a new private tab or window, as the browser usually does not use its cache there.
 
 2. Check your file names and content
