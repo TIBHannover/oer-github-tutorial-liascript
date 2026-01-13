@@ -410,6 +410,105 @@ Congratulations, you did it!
 
 If you want to learn more about what you can do with this template, you can continue with the [reference](#reference) part.
 
+If you want to work offline, head to the [working offline](#working-offline-with-visual-studio-code-/-vscodium) section.
+
+## Working offline with Visual Studio Code / VSCodium
+> In this tutorial, we worked online the entire time. We created and edited all files directly on GitHub.
+> You could however also work offline in a local folder on your computer and *then* upload your changes to a Git repository.
+
+You *could* upload your locally edited files to GitHub, either by simply uploading the corresponding files or by editing the files you want to change and replacing the content of that file with your local content manually on github.com. The better way, however, is to use Git for this - either by using your editor's built-in Git functionality or by using the Git program itself.
+
+### About Visual Studio Code / VSCodium
+> Note: VSCodium is the open source version of Visual Studio Code.
+
+You know text editors like Word or LibreOffice.
+However, we want to use *plain text* that is readable for machines.
+This is why we are working with [Markdown](#markdown-1) to format our *plain text*.
+
+There are a lot of editors that help you with writing text using the Markdown syntax.
+They use syntax highlighting to better understand the structure of Markdown and can provide a live preview as you type.
+
+The editor you can see in the screenshot below is called **VSCodium**, which is the open source version of a popular editor **Visual Studio Code** by Microsoft.
+In this editor, you can install plugins that can help you. For example, you can install a plugin that can render a preview of your LiaScript course in your browser without having to upload your changes.
+For this, go to the Extensions tab (click on it or press `Ctrl + Shift + X`) and search for `LiaScript-Preview`. Install the extension. Then head to your LiaScript course file and press `Ctrl + Shift + P`. Type in `LiaScript`. You should see the options `Preview your course in live mode`. Click on it (or select it with your arrow keys and press `Enter`). Now a page with your course should be opened in your browser. Each time you change your file, the page should update too.
+
+![Editor](img/vscode.png "VSCodium, the open source version of the popular editor Visual Studio Code")
+
+### Open an existing Git repository
+> You already created a Git repository? Then follow these steps:
+
+1. Open Visual Studio Code
+2. Press `Ctrl + Shift + P`
+3. Type in: `git clone` and press `Enter`
+4. Enter the URL from your GitHub repository and press `Enter`
+5. Choose the folder to download the GitHub repository to and confirm
+6. When the `git clone` has finished, Visual Studio Code will ask you if you want to open the newly created folder. Choose between either `Open` to open it in the current window, or if you want a new Visual Studio Code window, click `Open in New Window`.
+
+> Note: Alternatively to step 2 and 3, in the `Start` view of Visual Studio Code, you can select `Clone Git repository` and continue with step 4.
+
+Now you should have the content from your Git repository in your local folder.
+
+### Create a new GitHub repository with Visual Studio Code
+> You don't have a Git repository yet and want to create one on GitHub directly in Visual Studio Code? Then follow these steps:
+
+1. Open Visual Studio Code
+2. Select the folder you want to work in (or create a new folder and select it)
+3. Add at least one file (even if it's still empty) to the folder (tip: add a `README.md` file and describe what is in your repository!)
+4. Head to the `Source Control` view either by clicking on it or pressing `Ctrl + Shift + G`
+5. Click on the `Publish to GitHub` button
+6. You may have to grant Visual Studio Code access to your GitHub account - just follow the steps shown to you.
+7. Enter the name for your repository, make sure you create a `public` repository (and not a `private` one) and press `Enter`
+8. Select all the files you want to be on GitHub and confirm with `OK`
+
+Now your repository should be uploaded to GitHub. In the lower right corner, you will see a button to view your repository on GitHub.
+
+### Create a new Git repository on another platform than GitHub
+> If you want to publish your repository on another platform (like GitLab or Codeberg), follow these steps:
+
+1. Open Visual Studio Code
+2. Select the folder you want to work in (or create a new folder and select it)
+3. Add at least one file (even if it's still empty) to the folder (tip: add a `README.md` file and describe what is in your repository!)
+4. Head to the `Source Control` view either by clicking on it or pressing `Ctrl + Shift + G`
+5. Click on `Initialize repository`
+6. Add at least one file to your commit (click the plus sign after the file name in the `Source Control` tab)
+7. Enter a commit message (above the `Commit` button) and press `Commit`
+8. On the three dots above the commit message field, select `Remote` > `Add Remote...`
+9. Enter the URL to your repository and press `Enter`
+10. As the remote name, enter `origin` and press `Enter`
+11. Enter your username on the platform your repository will be on and press `Enter`
+12. Enter the password to your account and press `Enter`
+13. Visual Studio Code may show you an error that the repository does not exist yet. You probably can ignore this error, but if the following steps fail, create the repository in the corresponding website first and repeat steps 14-16.
+14. Click on `Publish branch`
+15. Enter your username (e.g. GitLab username or Codeberg username) and press `Enter`
+16. Enter your password and press `Enter`
+17. You should be done now. Check your repository to see if there were any changes added.
+
+### Further usage
+When you now change a file, you should be able to commit and push these changes directly to the repository.
+For this, follow these steps:
+
+1. Head to the `Source Control` view either by clicking on it or pressing `Ctrl + Shift + G`. There, you should see a list of changes files.
+2. Select the files you want to update in your repository by clicking on the plus sign ("Stage Changes") that appears when hovering over that file. The file should now appear in the `Staged Changes` list.
+3. To upload your changes, first enter a commit message (the text field above the `Commit` button). Describe what changes you implemented and keep your message short and clear.
+4. Click on the `Commit` button.
+5. Select `Sync Changes` (or select `Push` in the menu you can access by clicking the three dots above the commit message field). You may have to enter your username and password again.
+
+Now your changes should be online.
+
+> Note: if you are working with others on your repository, there may be incoming changes. In that case, before you `Push` or `Sync Changes`, you should select `Pull` first from the Source Control menu (access by clicking the three dots above the commit message field).
+> If multiple people changed the same file, you can have merge conflicts.
+> The file has to be merged manually in that case - meaning you have to select which of your local changes and which of the incoming changes you want to have in the file.
+> After you have done this, you can push your changes by selecting `Push` or `Sync Changes`.
+
+### Video tutorial
+This video shows how to use Git with Visual Studio Code / VSCodium.
+
+> By playing the video you agree to YouTube retrieving and storing information about you in the form of cookies.
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/i_23KUAEtUM?si=vXGoQLqXS0tbyV4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
 ## Reference
 
 > You have your OER in different output formats, complete with your own content and metadata and it is even already indexed in [oersi](https://oersi.org),
@@ -419,7 +518,6 @@ In this part of the tutorial, we highlight further configuration options, Markdo
 
 * [Markdown](#markdown-1)
 * [Git](#git)
-* [Working offline](#working-offline)
 * [Immediate update in OERSI](#immediate-update-in-oersi)
 * [Different formats](#different-formats)
 
@@ -540,52 +638,6 @@ They are resolved by choosing which changes to keep or by bringing them together
 > By playing the video you agree to YouTube retrieving and storing information about you in the form of cookies.
 >
 > !?[How Git Works: Explained in 4 Minutes](https://www.youtube.com/watch?v=e9lnsKot_SQ)
-
-</section>
-
-### Working offline
-
-> In this tutorial, we work online the entire time.
-> We create all files directly on GitHub.
-> Another way of working is to work offline in a local folder on your computer and *then* uploading your files to a git repository.
-> This, however, requires some knowledge about Git and a text editor.
-
-
-Since we are working with `Git` (see [Git section](#git) for more information), and want to publish our content on `GitHub` (see [GitHub section](#github)), we have to find a way to bring our offline work online.
-For this, you should check out the [Git section](#git).
-
-<section>
-
-### Editors
-
-You know text editors like Word or LibreOffice.
-However, we want to use *plain text* that is readable for machines.
-This is why we are working with [Markdown](#markdown-1) to format our *plain text*.
-
-There are a lot of editors that help you with writing text using the Markdown syntax.
-They use syntax highlighting to better understand the structure of Markdown and can provide a live preview as you type.
-
-![Editor](img/vscode.png "VSCodium, the open source version of the popular editor VSCode")
-
-The editor you can see in the screenshot is called **VSCodium**, which is the open source version of a popular editor **VSCode** by Microsoft.
-In this editor, you can install plugins that can help you.
-For example, you can install a plugin that can render a preview of your LiaScript course in your browser without having to upload your changes.
-It also has a built-in Git functionality which helps you publish your changes.
-
-</section>
-
-<section>
-
-### Put your changes online
-
-You *could* upload your locally edited files to GitHub, either by simply uploading this file or by editing the file you want to change and replacing that file's content with your local content.
-
-The better way, however, is to use Git for this - either by using your editor's built-in Git functionality or by using the Git program itself.
-Please check out the abundance of free online resources on how to do this.
-
-> By playing the video you agree to YouTube retrieving and storing information about you in the form of cookies.
->
-> !?[YouTube: Using Git with Visual Studio Code (Official Beginner Tutorial)](https://www.youtube.com/watch?v=i_23KUAEtUM)
 
 </section>
 
